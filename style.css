@@ -202,6 +202,8 @@ input, select {
 		border-top-style: solid;
 		border-width: 3px;
 		border-color: #ebe4d3;
+		/* to make bubble boxes */
+		border-radius: 2px;
 	}
 
 /* HEADING AND PARAGRAPH STYLING */
@@ -220,7 +222,7 @@ input, select {
 		font-size: 24px;
 		text-align: left;
 		text-decoration: none;
-		color: #90A145;
+		color: #8FBC8F;
 	}
 
 	p {
@@ -230,7 +232,7 @@ input, select {
 	}
 
 	body {
-		background-color: #949c4f;
+		background-color: #8FBC8F;
 	}
 	
 	.footer {
