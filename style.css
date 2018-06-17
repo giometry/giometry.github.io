@@ -151,13 +151,18 @@ input, select {
 		height: 250px;
 		background-image: url(img/Tree.png);
 		background-size: 100%;
-		margin: 0 auto;
+		margin: 0px auto;
+		border-top-style: solid;
+		border-width: 3px;
+		border-color: #ebe4d3;
 	}
 	.header {
 		width: 1000px;
 		height: 50px;
-		margin: 0 auto 10px;
+		margin: 0 auto;
 		background-color: white;
+		border-width: 3px;
+		border-color: #ebe4d3;
 	}
 	.img-NCSU {
     	height: 50px;
@@ -169,52 +174,67 @@ input, select {
 
 /* FRONT PAGE */
 	.wrapper {
-		margin: 10px auto;
+		margin: 0px auto;
 		height: 100%;
 		width: 1000px;
 		background-color: white;
 	}
 	
-	.wrapper2 {
+	.combine2 {
 		margin: 0px auto 10px;
 		height: 100%;
 		width: 1000px;
 		background-color: white;
 	}
 	
-	.wrapper3 {
-		margin: 10px auto 0px;
+	.combine {
+		margin: 0px auto 0px;
 		height: 30px;
 		width: 1000px;
 		background-color: white;
 	}
+	
+	.midbox{
+		margin: 0px auto;
+		height: 100%;
+		width: 1000px;
+		background-color: white;
+		border-top-style: solid;
+		border-width: 3px;
+		border-color: #ebe4d3;
+	}
 
 /* HEADING AND PARAGRAPH STYLING */
 	h1 {
-		margin: 10px 20px 10px;
-		font-family: 'Oswald', sans-serif;
-		font-size: 24px;
+		margin: 15px 20px 0px;
+		font-family: NexusSerif, sans-serif;
+		font-size: 20px;
 		text-align: left;
 		text-decoration: none;
 		color: black;
 	}
 	
 	h2 {
-		margin: 10px;
+		margin: 20px 30px 10px 30px;
 		font-family: 'Oswald', sans-serif;
 		font-size: 24px;
 		text-align: left;
 		text-decoration: none;
-		color: #96CDCD;
-		
+		color: #90A145;
 	}
 
 	p {
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 20px;
-		margin: 20px 30px 20px 30px;
+		margin: 20px 30px 0px 30px;
 	}
 
 	body {
-		background-color: #eee;
+		background-color: #949c4f;
+	}
+	
+	.footer {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 20px 30px 20px 30px;
 	}
