@@ -101,11 +101,96 @@ input, select {
     vertical-align:middle;
 }
 
-/* new styling */
-h2 {
-	color: red;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-p {
+/* NEW STYLE */
 
-}
+/* NAVIGATION BOX */
+	/* makes a navigation box */
+	nav {
+		margin: 0 auto;
+		width: 1000px;
+		height: 40px;
+		background-color: #fff;
+	}
+
+	ul {
+		/* margin-left: 10px; */
+	}
+
+	ul li {
+		list-style: none;
+		display: inline-block;
+		line-height: 40px;
+	}
+
+	ul li a {
+		text-decoration: none;
+		font-size: 14px;
+		font-family: Arial;
+		font-weight: bold;
+		color: #707070;
+		/* pads 0 top and bottom and 20 pixels left right */
+		padding: 0 20px;
+		/* makes so you make boxes around the navigation box items to click */
+		display: block;
+	}
+
+	/* changes style when you hover */
+	ul li a:hover {
+		color: black;
+		text-decoration: underline;
+	}
+
+/* PICTURES */
+	.img-trees {
+		width: 1000px;
+		height: 250px;
+		background-image: url(img/Tree.png);
+		background-size: 100%;
+		margin: 0 auto;
+	}
+	.header {
+		width: 1000px;
+		height: 50px;
+		margin: 0 auto 10px;
+		background-color: white;
+	}
+	.img-NCSU {
+    	max-width: 100%;
+   		max-height: 100vh;
+    	height: auto;
+    	background-image: url(img/NCSUCollegeOfNaturalResources.png);
+	}
+
+/* FRONT PAGE */
+	.wrapper {
+		margin: 10px auto;
+		height: 100%;
+		width: 1000px;
+		background-color: white;
+	}
+
+/* HEADING AND PARAGRAPH STYLING */
+	h2 {
+		margin: 10px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 24px;
+		text-align: left;
+		text-decoration: none;
+		color: #96CDCD;
+		
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 20px;
+		margin: 20px 30px 20px 30px;
+	}
+
+	body {
+		background-color: #eee;
+	}
