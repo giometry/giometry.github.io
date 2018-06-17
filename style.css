@@ -173,8 +173,31 @@ input, select {
 		width: 1000px;
 		background-color: white;
 	}
+	
+	.wrapper2 {
+		margin: 0px auto 10px;
+		height: 100%;
+		width: 1000px;
+		background-color: white;
+	}
+	
+	.wrapper3 {
+		margin: 10px auto 0px;
+		height: 30px;
+		width: 1000px;
+		background-color: white;
+	}
 
 /* HEADING AND PARAGRAPH STYLING */
+	h1 {
+		margin: 10px 20px 10px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 24px;
+		text-align: left;
+		text-decoration: none;
+		color: black;
+	}
+	
 	h2 {
 		margin: 10px;
 		font-family: 'Oswald', sans-serif;
