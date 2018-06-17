@@ -160,10 +160,11 @@ input, select {
 		background-color: white;
 	}
 	.img-NCSU {
-    	max-width: 100%;
-   		max-height: 100vh;
-    	height: auto;
-    	background-image: url(img/NCSUCollegeOfNaturalResources.png);
+    	height: 50px;
+    	width: 1000px;
+    	background-image: url(img/NCSULogo.png);
+    	background-size: contain;
+    	background-repeat: no-repeat;
 	}
 
 /* FRONT PAGE */
