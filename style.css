@@ -152,7 +152,7 @@ input, select {
 		background-image: url(img/Tree.png);
 		background-size: 100%;
 		margin: 0px auto;
-		border-width: 4px;
+		border-width: 5px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
@@ -163,7 +163,7 @@ input, select {
 		height: 50px;
 		margin: 0 auto;
 		background-color: white;
-		border-width: 4px;
+		border-width: 5px;
 		border-top-style: solid;
 		border-left-style: solid;
 		border-right-style: solid;
@@ -185,6 +185,15 @@ input, select {
 		background-color: white;
 	}
 	
+	.wrapper2 {
+		margin: 0px auto;
+		height: 100%;
+		width: 1000px;
+		border-top-style: solid;
+		border-width: 2px;
+		border-color: #C0C0C0;
+	}
+	
 	.combine2 {
 		margin: 0px auto 10px;
 		height: 100%;
@@ -204,7 +213,7 @@ input, select {
 		height: 100%;
 		width: 1000px;
 		background-color: white;
-		border-width: 4px;
+		border-width: 5px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
@@ -218,7 +227,9 @@ input, select {
 		height: 100%;
 		width: 1000px;
 		background-color: white;
-		border-width: 4px;
+		border-bottom-width: 5px;
+		border-left-width: 5px;
+		border-right-width: 5px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
