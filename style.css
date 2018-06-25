@@ -280,6 +280,12 @@ input, select {
 		line-height: 20px;
 		margin: 10px 30px 5px 30px;
 	}
+	
+	.margins3 {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 10px 50px 5px 50px;
+	}
 
 	body {
 		background-color: #2A3132;
