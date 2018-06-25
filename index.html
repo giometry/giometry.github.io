@@ -17,66 +17,91 @@
 
 	<body>
 	
-		<div class="header">
-			<div class="img-NCSU"></div>
-		</div>
+		<div class="header img-NCSU"></div>
 		
 		<div class="img-trees"></div>
 		
-		
 		<div class="midbox">
-			
 			<div class="combine">
 				<h1> Project Name </h1>
 			</div>
 		</div>
 		
-		<div class="midbox">		
-			<nav>
-				<div class="combine2">
-					<ul>
-						<li><a href="#">Project Description</a></li>
-						<li><a href="#">Background Information</a></li>
-						<li><a href="#">Project Objective</a></li>
-						<li><a href="#">Research Approach</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
-			</nav>
+		<div class="wrapper">
+			<div class="tab">
+				<button class="tablinks" onclick="openTab(event, 'Overview')" id="defaultOpen"> Overview </button>
+				<button class="tablinks" onclick="openTab(event, 'Collaborators')"> Collaborators </button>
+				<button class="tablinks" onclick="openTab(event, 'Publications')"> Publications </button>
+				<button class="tablinks" onclick="openTab(event, 'Contact Us')"> Contact </button>
+			</div>
 		</div>
-		
 		
 		<div class="midbox2">
-			<div class="wrapper2">
-				<h2> Project Description </h2>
-				<p> This is a project. </p>
+	
+			<div id="Overview" class="tabcontent">
+				<div class="container">
+					<p class="margins1">May indulgence difficulty ham can put especially. Bringing remember for supplied her why was confined. Middleton principle did she procuring extensive believing add. Weather adapted prepare oh is calling. These wrong of he which there smile to my front. He fruit oh enjoy it of whose table. Cultivated occasional old her unpleasing unpleasant. At as do be against pasture covered viewing started. Enjoyed me settled mr respect no spirits civilly.</p>
+					<p class="margins1">Advanced extended doubtful he he blessing together. Introduced far law gay considered frequently entreaties difficulty. Eat him four are rich nor calm. By an packages rejoiced exercise. To ought on am marry rooms doubt music. Mention entered an through company as. Up arrived no painful between. It declared is prospect an insisted pleasure.</p>
+					<p class="margins1">An an valley indeed so no wonder future nature vanity. Debating all she mistaken indulged believed provided declared. He many kept on draw lain song as same. Whether at dearest certain spirits is entered in to. Rich fine bred real use too many good. She compliment unaffected expression favourable any. Unknown chiefly showing to conduct no. Hung as love evil able to post at as. </p>
+				</div>
 			</div>
-			<div class="wrapper">
-				<h2> Background Information </h2>
-				<p> Water availability and quality are expected to be
-				adversely affected by adverse weather events and population
-				pressures. Therefore, the ability to regulate water
-				availability and improve water quality will become
-				increasingly important with continued human population
-				growth. One approach to regulating water availability and
-				improving water quality is the use of forest-water reuse
-				(FWR) systems. FWR systems are slow-rate irrigation systems
-				that treat municipal, industrial, and agricultural
-				wastewaters through infiltration into forest soils and
-				groundwater. </p>
+	
+			<div id="Collaborators" class="tabcontent">
+				<div class="container">
+					<a href=#>Collaborator 1</a>
+					<p class="margins2"">Short excerpt about organization</p>
+				</div>
+				<div class="container">
+					<a href=#>Collaborator 2</a>
+					<p class="margins2">Short excerpt about organization</p>
+				</div>
+				<div class="container">
+					<a href=#>Collaborator 3</a>
+					<p class="margins2">Short excerpt about organization</p>
+				</div>				
+				<div class="container">
+					<a href=#>Etc.</a>
+					<p class="margins2">Short excerpt about organization</p>
+				</div>
 			</div>
-			<div class="wrapper">
-				<h2> Project Objective </h2>
-				<p> ... </p>
+			
+			<div id="Publications" class="tabcontent">
+				<div class="container"> 
+					<p class="margins2"> Publication 1 </p>
+				</div>
+				<div class="container"> 
+					<p class="margins2"> Publication 2 </p>
+				</div>
+				<div class="container"> 
+					<p class="margins2"> Publication 3 </p>
+				</div>
 			</div>
-			<div class="wrapper">
-				<h2> Research Approach </h2>
-				<p> ... </p>
+	
+			<div id="Contact Us" class="tabcontent">
+				    <div class="container">
+						<label for="fname">Name</label>
+						<input type="text" id="" name="" placeholder="Enter your name">
+						<br>
+						<label for="lname">Email</label>
+						<input type="text" id="" name="" placeholder="Enter your email address">
+						<br>
+						<label for="lname">Subject</label>
+						<input type="text" id="" name="" placeholder="Enter the subject matter">
+						<br>
+						<label for="lname">Message</label>
+						<br>
+						<textarea id="" name="" placeholder="Type your message" style="height:200px"></textarea>
+						<input type="submit" value="Submit">
+					</div>
 			</div>
-			<div class="wrapper">
-				<p class="footer"> For more information <a href="#"> Contact Us </a> </p>
-			</div>
+		
 		</div>
+
+		<!-- border at the bottom -->
+		<div class="midbox">
+		</div>
+		
+		<script src="javascript.js"></script>
 	</body>
 </html>
 

@@ -110,54 +110,70 @@ input, select {
 
 /* NAVIGATION BOX */
 	/* makes a navigation box */
-	nav {
-		margin: 0 auto;
+	.tab {
+		overflow: hidden;
+    	border: 0px solid #ccc;
+    	border-bottom-width: 0px;
+    	border-color: rgb(248, 251, 225);
+		height: 100%;
 		width: 1000px;
-		height: 40px;
-		background-color: #fff;
+		background-color: #ddd;
+		
 	}
-
-	ul {
-		/* margin-left: 10px; */
-	}
-
-	ul li {
-		list-style: none;
-		display: inline-block;
-		line-height: 40px;
-	}
-
-	ul li a {
-		text-decoration: none;
-		font-size: 14px;
-		font-family: Arial;
-		font-weight: bold;
-		color: #707070;
-		/* pads 0 top and bottom and 20 pixels left right */
-		padding: 0 20px;
-		/* makes so you make boxes around the navigation box items to click */
-		display: block;
-	}
-
-	/* changes style when you hover */
-	ul li a:hover {
-		color: black;
-		text-decoration: underline;
-	}
-
-/* PICTURES */
-	.img-trees {
-		width: 1000px;
-		height: 250px;
-		background-image: url(img/Tree.png);
-		background-size: 100%;
+	
+	.wrapper{
 		margin: 0px auto;
-		border-width: 5px;
+		height: 100%;
+		width: 1000px;
+		
 		border-color: #ebe4d3;
+		border-top-width: 5px;
+		border-left-width: 5px;
+		border-right-width: 5px;
 		border-top-style: solid;
 		border-left-style: solid;
 		border-right-style: solid;
 	}
+	
+	.tab button {
+		font-size: 13px;
+		width: 150px;
+		background-color: white;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 20px;
+		transition: 0.3s;
+		background-color: #ddd;
+	}
+	
+	.tab button:hover {
+    	background-color: white;
+	}
+	
+	.tab button.active {
+		background-color: white;
+		border-bottom: none;
+		font-weight: bold;
+		
+	}
+	
+	.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border-top: none;
+	}
+
+/* PICTURES */
+	.img-NCSU {
+    	height: 50px;
+    	width: 100%;
+    	background-image: url(img/NCSURedLogo1Cropped.png);
+    	background-size: contain;
+    	background-repeat: no-repeat;
+	}
+	
 	.header {
 		width: 1000px;
 		height: 50px;
@@ -169,38 +185,21 @@ input, select {
 		border-right-style: solid;
 		border-color: #ebe4d3;
 	}
-	.img-NCSU {
-    	height: 50px;
-    	width: 1000px;
-    	background-image: url(img/NCSULogo.png);
-    	background-size: contain;
-    	background-repeat: no-repeat;
+	
+	.img-trees {
+		width: 1000px;
+		height: 250px;
+		background-image: url(img/ForestryOnline.jpg);
+		background-size: 100%;
+		margin: 0px auto;
+		border-width: 5px;
+		border-color: #ebe4d3;
+		border-top-style: solid;
+		border-left-style: solid;
+		border-right-style: solid;
 	}
 
 /* FRONT PAGE */
-	.wrapper {
-		margin: 0px auto;
-		height: 100%;
-		width: 1000px;
-		background-color: white;
-	}
-	
-	.wrapper2 {
-		margin: 0px auto;
-		height: 100%;
-		width: 1000px;
-		border-top-style: solid;
-		border-width: 2px;
-		border-color: #C0C0C0;
-	}
-	
-	.combine2 {
-		margin: 0px auto 10px;
-		height: 100%;
-		width: 1000px;
-		background-color: white;
-	}
-	
 	.combine {
 		margin: 0px auto 0px;
 		height: 30px;
@@ -224,19 +223,25 @@ input, select {
 	
 	.midbox2{
 		margin: 0px auto;
-		height: 100%;
 		width: 1000px;
 		background-color: white;
-		border-bottom-width: 5px;
+		
+		position: relative;
+		
 		border-left-width: 5px;
 		border-right-width: 5px;
-		border-color: #ebe4d3;
-		border-top-style: solid;
 		border-left-style: solid;
 		border-right-style: solid;
-		border-bottom-style: solid;
+		border-color: #ebe4d3;
 		/* to make bubble boxes */
 		/* border-radius: 2px; */
+	}
+	
+	.midbox2:before{
+		position: absolute;
+		border: 10px solid red;
+		height: 100%; width: 100%;
+    	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
 	}
 
 /* HEADING AND PARAGRAPH STYLING */
@@ -251,17 +256,29 @@ input, select {
 	
 	h2 {
 		margin: 20px 30px 10px 30px;
-		font-family: 'Oswald', sans-serif;
-		font-size: 24px;
+		font-family: Helvetica Neue, sans-serif;
+		font-size: 22px;
+		font-style: normal;
 		text-align: left;
 		text-decoration: none;
-		color: #769cb7;
+		color: #4CAF50;
 	}
 
 	p {
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 20px;
-		margin: 20px 30px 0px 30px;
+	}
+	
+	.margins1 {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 20px 30px 20px 30px;
+	}
+	
+	.margins2 {
+		font-size: 16px;
+		line-height: 20px;
+		margin: 10px 30px 5px 30px;
 	}
 
 	body {
@@ -273,3 +290,40 @@ input, select {
 		line-height: 20px;
 		margin: 20px 30px 20px 30px;
 	}
+	
+/* Contact form */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+}
