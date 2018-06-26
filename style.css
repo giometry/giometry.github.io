@@ -226,23 +226,17 @@ input, select {
 		width: 1000px;
 		background-color: white;
 		
-		position: relative;
-		
 		border-left-width: 6px;
 		border-right-width: 6px;
+		border-bottom-style: 6px;
 		border-left-style: solid;
 		border-right-style: solid;
+		border-bottom-style: solid;
 		border-color: #ebe4d3;
+		
+		min-height: calc(100vh - 404px);
 		/* to make bubble boxes */
 		/* border-radius: 2px; */
-	}
-	
-	.midbox2:before{
-		position: absolute;
-		border: 10px solid red;
-		height: 100%; width: 100%;
-		min-height: 100vh;
-    	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
 	}
 
 /* HEADING AND PARAGRAPH STYLING */
