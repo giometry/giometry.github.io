@@ -127,9 +127,9 @@ input, select {
 		width: 1000px;
 		
 		border-color: #ebe4d3;
-		border-top-width: 5px;
-		border-left-width: 5px;
-		border-right-width: 5px;
+		border-top-width: 6px;
+		border-left-width: 6px;
+		border-right-width: 6px;
 		border-top-style: solid;
 		border-left-style: solid;
 		border-right-style: solid;
@@ -179,7 +179,7 @@ input, select {
 		height: 50px;
 		margin: 0 auto;
 		background-color: white;
-		border-width: 5px;
+		border-width: 6px;
 		border-top-style: solid;
 		border-left-style: solid;
 		border-right-style: solid;
@@ -192,7 +192,7 @@ input, select {
 		background-image: url(img/ForestryOnline.jpg);
 		background-size: 100%;
 		margin: 0px auto;
-		border-width: 5px;
+		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
@@ -212,7 +212,7 @@ input, select {
 		height: 100%;
 		width: 1000px;
 		background-color: white;
-		border-width: 5px;
+		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
@@ -228,8 +228,8 @@ input, select {
 		
 		position: relative;
 		
-		border-left-width: 5px;
-		border-right-width: 5px;
+		border-left-width: 6px;
+		border-right-width: 6px;
 		border-left-style: solid;
 		border-right-style: solid;
 		border-color: #ebe4d3;
@@ -241,6 +241,7 @@ input, select {
 		position: absolute;
 		border: 10px solid red;
 		height: 100%; width: 100%;
+		min-height: 100vh;
     	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
 	}
 
