@@ -221,7 +221,7 @@ input, select {
 		/* border-radius: 2px; */
 	}
 	
-	.midbox2{
+	#midbox2{
 		margin: 0px auto;
 		width: 1000px;
 		background-color: white;
@@ -233,8 +233,6 @@ input, select {
 		border-right-style: solid;
 		border-bottom-style: solid;
 		border-color: #ebe4d3;
-		
-		min-height: calc(100vh - 404px);
 		/* to make bubble boxes */
 		/* border-radius: 2px; */
 	}
