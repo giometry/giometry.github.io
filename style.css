@@ -329,12 +329,12 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 1000px) {
 	.img-NCSU {
-    	height: 40px;
+    	height: 50px;
 	}
 	
 	.header {
 		width: calc(100% - 12px);
-		height: 40px;
+		height: 50px;
 	}
 	
 	.img-trees {
