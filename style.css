@@ -326,3 +326,44 @@ input[type=submit]:hover {
     padding: 20px;
     margin: 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+	.img-NCSU {
+    	height: 30px;
+	}
+	
+	.header {
+		width: calc(100% - 12px);
+		height: 30px;
+	}
+	
+	.img-trees {
+		width: calc(100% - 12px);
+		height: 200px;
+	}
+	
+	.midbox{
+		width: calc(100% - 12px);
+	}
+	
+	.combine{
+		width: calc(100% - 12px);
+	}
+	
+	#midbox2{
+		width: calc(100% - 12px);
+	}
+	
+	.wrapper{
+		width: calc(100% - 12px);
+	}
+	
+	.tab {
+		width: calc(100% - 12px);
+	}
+	
+	.tab button {
+		width: 24%;
+		font-size: 11px;
+	}
+}

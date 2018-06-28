@@ -14,7 +14,11 @@ function openTab(evt, tabName){
 	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
 	
-	document.getElementById("midbox2").style.minHeight = (document.documentElement.clientHeight - 468) + "px";
+	if ( screen.height >= 1000 ) {
+		document.getElementById("midbox2").style.minHeight = (document.documentElement.clientHeight - 468) + "px";
+	} else {
+		document.getElementById("midbox2").style.minHeight = (document.documentElement.clientHeight - 346) + "px";
+	}
 }
 
 document.getElementById("defaultOpen").click();
