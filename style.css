@@ -200,12 +200,14 @@ input, select {
 	}
 
 	.img-graduation-headshot {
-		width: 150px;
-		height: 180px;
-		background-image: url(img/DataAnalysis.png);
+		width: 180px;
+		height: 200px;
+		background-image: url(img/GraduationHeadshot.jpg);
 		background-size: 100%;
 		margin: 0px auto;
-		border-width: 6px;
+		margin-left: 30px;
+		float: right;
+		border-width: 0px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
