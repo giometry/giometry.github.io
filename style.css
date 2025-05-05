@@ -205,7 +205,8 @@ input, select {
 		background-image: url(img/GraduationHeadshot.jpg);
 		background-size: 100%;
 		margin: 0px auto;
-		border-width: 6px;
+		float: right;
+		border-width: 0px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
 		border-left-style: solid;
