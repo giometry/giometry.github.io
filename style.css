@@ -202,7 +202,7 @@ input, select {
 	.img-graduation-headshot {
 		width: 150px;
 		height: 180px;
-		background-image: url('img/GraduationHeadShot.png');
+		background-image: url('img/GraduationHeadshot.png');
 		background-size: cover;
 		background-position: center;
 		float: left;
