@@ -202,15 +202,15 @@ input, select {
 	.img-graduation-headshot {
 		width: 150px;
 		height: 180px;
-		background-image: url(img/GraduationHeadshot.jpg);
-		background-size: cover;
-		background-position: center;
-		float: right;
-		margin-left: 20px;
-		margin-bottom: 10px;
-		border: 6px solid #ebe4d3;
+		background-image: url(img/GraduationHeadshot.png);
+		background-size: 100%;
+		margin: 0px auto;
+		border-width: 6px;
+		border-color: #ebe4d3;
+		border-top-style: solid;
+		border-left-style: solid;
+		border-right-style: solid;
 	}
-
 
 /* FRONT PAGE */
 	.combine {
