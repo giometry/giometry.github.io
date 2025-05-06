@@ -219,14 +219,14 @@ input, select {
 		margin: 0px auto 0px;
 		height: 30px;
 		width: 1000px;
-		background-color: #161356;
+		background-color: #9FB1BC;
 	}
 	
 	.midbox{
 		margin: 0px auto;
 		height: 100%;
 		width: 1000px;
-		background-color: #161356;
+		background-color: #9FB1BC;
 		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
