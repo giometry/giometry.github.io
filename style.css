@@ -188,12 +188,12 @@ input, select {
 	
 	.img-data-analysis {
 		width: 1000px;
-		height: auto; /* Let the height adjust */
-		background-image: url('img/DataAnalysis.png');
-		background-size: contain; /* Ensures entire image fits */
-		background-repeat: no-repeat; /* Prevents tiling */
-		background-position: center; /* Centers the image */
-		margin: 0 auto;
+		height: 300px;
+		background-image: url(img/DataAnalysis.png);
+		background-size: auto 100%;
+		background-repeat: repeat;
+		background-position: center center;
+		margin: 0px auto;
 		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
