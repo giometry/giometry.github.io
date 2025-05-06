@@ -310,6 +310,13 @@ input, select {
 		line-height: 20px;
 		margin: 20px 30px 20px 30px;
 	}
+
+	.subtitle {
+		font-weight: bold;
+		color: black;
+		font-size: 1.1em;
+		margin-bottom: 0.5em;
+	}
 	
 /* Contact form */
 /* Style inputs with type="text", select elements and textareas */
