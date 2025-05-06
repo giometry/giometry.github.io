@@ -60,14 +60,14 @@ a {
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ffffff;
+    background-color:#ff9;
     color:#000;
     text-decoration:none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ffffff;
+    background-color:#ff9;
     color:#000; 
     font-style:italic;
     font-weight:bold;
@@ -302,7 +302,7 @@ input, select {
 	}
 
 	body {
-		background-color: #2A3132;
+		background-color: #ffffff;
 	}
 	
 	.footer {
