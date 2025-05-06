@@ -190,7 +190,9 @@ input, select {
 		width: 1000px;
 		height: 300px;
 		background-image: url(img/DataAnalysis.png);
-		background-size: 100%;
+		background-size: auto 100%;
+		background-repeat: repeat;
+		background-position: center center;
 		margin: 0px auto;
 		border-width: 6px;
 		border-color: #ebe4d3;
@@ -198,6 +200,7 @@ input, select {
 		border-left-style: solid;
 		border-right-style: solid;
 	}
+
 
 	.img-graduation-headshot {
 		width: 180px;
@@ -219,14 +222,14 @@ input, select {
 		margin: 0px auto 0px;
 		height: 30px;
 		width: 1000px;
-		background-color: white;
+		background-color: #9FB1BC;
 	}
 	
 	.midbox{
 		margin: 0px auto;
 		height: 100%;
 		width: 1000px;
-		background-color: white;
+		background-color: #9FB1BC;
 		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
@@ -259,7 +262,7 @@ input, select {
 		font-size: 20px;
 		text-align: left;
 		text-decoration: none;
-		color: black;
+		color: white;
 	}
 	
 	h2 {
@@ -302,7 +305,7 @@ input, select {
 	}
 
 	body {
-		background-color: #2A3132;
+		background-color: #9FB1BC;
 	}
 	
 	.footer {
