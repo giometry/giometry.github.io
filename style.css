@@ -226,7 +226,7 @@ input, select {
 		margin: 0px auto;
 		height: 100%;
 		width: 1000px;
-		background-color: white;
+		background-color: #161356;
 		border-width: 6px;
 		border-color: #ebe4d3;
 		border-top-style: solid;
@@ -259,7 +259,7 @@ input, select {
 		font-size: 20px;
 		text-align: left;
 		text-decoration: none;
-		color: black;
+		color: white;
 	}
 	
 	h2 {
